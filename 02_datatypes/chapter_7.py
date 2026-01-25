@@ -10,7 +10,7 @@ ginger_ratio, cardamon_ratio = 2, 1
 
 print(f"Ratio is G :{ginger_ratio} and C: {cardamon_ratio}")
 ginger_ratio, cardamon_ratio = cardamon_ratio, ginger_ratio
-print(f"Ratio is G :{ginger_ratio} and C: {cardamon_ratio}")
+print(f"Ratio is G :{ginger_ratio} and C: {cardamon_ratio}") # value is swapped in form of ratio
 
 # membership testing it is checked by "in" checks the box, the, the purse, the container about belonging of specific material
 print(f"Is ginger in masala spices? {'ginger' in masala_spices}")
