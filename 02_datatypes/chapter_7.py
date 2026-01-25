@@ -1,6 +1,6 @@
 # LECTURE -- 16. Tuples and Membership Testing
 
-masala_spices = ("cardamon", "cloves", "cinnamon")
+masala_spices = ("cardamon", "cloves", "cinnamon") # tuple is kind of mapping and sets in which place of things is fixed and defined
 
 (spice1, spice2, spice3) = masala_spices
 
