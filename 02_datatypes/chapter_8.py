@@ -1,7 +1,7 @@
 #LECTURE -- 17. Basics of List in Python + 18. Operator overloading and bytearray in python
 
 ingredients = ["water", "milk", "black tea"]
-ingredients.append("sugar") # Adding method
+ingredients.append("sugar") # Adding method to the end
 print(f"Ingredients are {ingredients}")
 
 ingredients.remove("water") #removing things from list method
@@ -45,3 +45,13 @@ print(f"Print strong brew: {strong_brew}")
 raw_spice_data = bytearray(b"CINNAMON") # Advanced Example and topic revise again but only syntax part(Raw Data)
 raw_spice_data = raw_spice_data.replace(b"CINN", b"CARD")
 print(f"Bytes: {raw_spice_data}")
+
+#This is called split method in which we convert STRING INTO LIST
+# 1. Define the string (One long text)
+veggie_string = "tomato cucumber spinach"
+
+# 2. Convert it into a list (Chop it at the spaces)
+veggie_list = veggie_string.split()
+
+# 3. Print it
+print(f"Converted List: {veggie_list}")
