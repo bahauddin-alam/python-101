@@ -1,3 +1,5 @@
+#LECTURE -- 19. Set and frozenset in python
+
 essential_spices = {"cardamon", "ginger", "cinnamon"}
 optional_spices = {"cloves", "ginger", "black pepper"}
 
