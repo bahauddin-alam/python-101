@@ -1,7 +1,7 @@
 #LECTURE -- 17. Basics of List in Python
 
 ingredients = ["water", "milk", "black tea"]
-ingredients.append("sugar") # Adding mrthod
+ingredients.append("sugar") # Adding method
 print(f"Ingredients are {ingredients}")
 
 ingredients.remove("water") #removing things from list method
