@@ -1,21 +1,41 @@
-#LECTURE -- 15. String - Index, Slice and Encoding
+# LECTURE 15 — Strings: Indexing, Slicing and Encoding in Python
 
+
+# Strings are sequences of characters
 chai_type = "Ginger chai"
 customer_name = "Priya"
 
-print(f"Order for {customer_name} : {chai_type} please!") #Good e.g. of string
+# f-string allows inserting variables directly inside strings
+print(f"Order for {customer_name} : {chai_type} please!")
 
+
+# String slicing examples
 chai_description = "Aromatic and bold"
-print(f"First word: {chai_description [:8]}") #Can include 0 in starting
-print(f"Last word: {chai_description [12:]}") #No need of adding number later in ratio perhaps you want specific word
-print(f"Reverse words: {chai_description [::-1]}") #Makes strings in reverse order
+
+# Slice syntax: [start : end]
+# start index included, end index excluded
+print(f"First word: {chai_description[:8]}")  # from start up to index 8
+
+# If start index is given but end is omitted → slice until the end
+print(f"Last word: {chai_description[12:]}")
+
+# Step slicing: [start:end:step]
+# -1 step reverses the string
+print(f"Reverse words: {chai_description[::-1]}")
 
 
+# Encoding and decoding strings
+# Encoding → converting text (string) into bytes
+# Decoding → converting bytes back into text
 
-#HERE I HAVE PROBLEM IN ENCODING AND DECODING THING WILL REVISE THIS CONCEPT TIME STAMP-- FROM 8:48-12:00
 label_text = "Chai Spécial"
+
+# Encode string using UTF-8 (common text encoding standard)
 encoded_label = label_text.encode("utf-8")
+
 print(f"Non Encoded label: {label_text}")
 print(f"Encoded label: {encoded_label}")
+
+# Decode bytes back into readable string
 decoded_label = encoded_label.decode("utf-8")
 print(f"Decoded label: {decoded_label}")
