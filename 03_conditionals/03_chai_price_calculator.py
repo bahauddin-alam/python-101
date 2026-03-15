@@ -1,9 +1,12 @@
-# Tea stall pricing system
-# The program calculates the price of chai based on the selected cup size
+#LECTURE 24. Building a Chai Price Calculator
 
+"""
+Tea stall pricing system
+The program calculates the price of chai based on the selected cup siz
 
-# Take cup size input from the user
-# .lower() ensures input comparison works even if user types SMALL/Small/etc.
+Take cup size input from the user
+.lower() ensures input comparison works even if user types SMALL/Small/etc.
+"""
 cup = input("Choose your cup size (small/medium/large): ").lower()
 
 

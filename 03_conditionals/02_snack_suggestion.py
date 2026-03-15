@@ -1,9 +1,14 @@
-# Cafe snack suggestion system
-# The program checks if the requested snack is available in the cafe
+#LECTURE 23. Building a Snack System
+
+""" 
+Cafe snack suggestion system
+ The program checks if the requested snack is available in the cafe
 
 
-# Take snack input from the user
-# .lower() converts input to lowercase to make comparison easier
+ Take snack input from the user
+.lower() converts input to lowercase to make comparison easier
+"""
+
 snack = input("Enter your preferred snack: ").lower()
 
 

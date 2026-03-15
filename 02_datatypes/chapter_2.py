@@ -14,8 +14,8 @@
 # Examples: int, str, tuple, bool
 
 # Key idea:
-# Mutable → contents change
-# Immutable → new object created
+# Mutable → contents change/modified --->>>The "Whiteboard"
+# Immutable → new object created --->>>The "Printed Paper"
 """
 
 spice_mix = set()

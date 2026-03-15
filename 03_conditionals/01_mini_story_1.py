@@ -1,6 +1,10 @@
-# Smart kettle notification system
-# The program checks if the kettle has finished boiling
-# If it has boiled, notify the user to make chai
+#LECTURE 22. Kettle Boiling Story Project
+
+"""
+Smart kettle notification system
+ The program checks if the kettle has finished boiling
+If it has boiled, notify the user to make chai
+"""
 
 
 # Boolean variable representing kettle status

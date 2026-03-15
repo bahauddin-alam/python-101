@@ -1,8 +1,11 @@
 # LECTURE 20 — Dictionaries in Python
 
 
-# Dictionary: collection of key-value pairs (mutable and unordered)
-# Keys must be unique
+"""
+Dictionary: collection of key-value pairs (mutable and unordered)
+Keys must be unique
+"""
+
 chai_order = dict(type="Masala chai", size="Large", sugar=2)
 
 print(f"Chai order: {chai_order}")

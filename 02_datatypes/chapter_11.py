@@ -1,7 +1,9 @@
 # LECTURE 21 — Touch on Advanced Data Types (Libraries & Collections)
 
-# 'arrow' is a third-party library used for easier date and time handling
-# It improves on Python's built-in datetime module
+"""
+'arrow' is a third-party library used for easier date and time handling
+It improves on Python's built-in datetime module
+"""
 
 import arrow
 

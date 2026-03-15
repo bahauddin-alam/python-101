@@ -1,7 +1,7 @@
 # LECTURE 19 — Sets and Frozensets in Python
 
 
-# Set: unordered collection of unique elements (no duplicates allowed)
+#Set: unordered collection of unique elements (no duplicates allowed)
 essential_spices = {"cardamon", "ginger", "cinnamon"}
 optional_spices = {"cloves", "ginger", "black pepper"}
 
