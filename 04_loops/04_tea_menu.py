@@ -2,7 +2,8 @@
 You're creating a tea menu board.
 Each item must be numbered.
 Task:
-
+Use two lists: one for names and one for bills.
+Print:"[Name] paid $[amount]"
 """
 
 menu = ["Green", "Lemon", "Spiced", "Mint"]
