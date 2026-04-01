@@ -17,5 +17,3 @@ def genrate_report():
 
 
 genrate_report()
-
-
